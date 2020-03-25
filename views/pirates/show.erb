@@ -7,7 +7,7 @@
 </div><br>
  
 <h1>Ships</h1>
-<% Ships.all.each do |ship| %>
+<% @ships.each do |ship| %>
   <div class="ship">
     <p>Name: <%= ship.name %></p><br>
     <p>Type: <%= ship.type %></p><br>
